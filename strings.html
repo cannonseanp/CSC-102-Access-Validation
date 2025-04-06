@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Sean Cannon -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <link href="palindrome.css" rel="stylesheet">
+    <script src = "palindrome.js"></script>
+</head>
+<body>
+        <h1>Fun with Strings</h1>
+        <form id="stringInput" onsubmit="return false">
+            String 1: <input type = "text" id="str1"/>
+            <br>
+            <input type="submit" onclick="palindrome();"/>
+        </form>
+        <p id="updates">Well?? We're waiting...</p>
+        <br><br>
+        <form id="uav" onsubmit="return false">
+            First Name: <input type = "text" id="fName" required/>
+            Last Name: <input type = "text" id="lName" required/>
+            Zip Code: <input type = "text" id="zipCode" required/>
+            <br>
+            <input type="submit" onclick="uav();"/>
+        </form>
+        <p id="updates2">Enter access token above</p>
+</body>
+</html>
