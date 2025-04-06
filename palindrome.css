@@ -24,3 +24,23 @@ footer{
 h1{
     text-align: center;
 }
+form{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: transparent);
+    border: 4px transparent);
+    gap: 1rem;
+}
+input[type=text]{
+    background-color: rebeccapurple;
+    
+    width: 500px;
+}
+input, select textarea{
+    color:cornsilk;
+}
+input[type=submit]{
+    background-color: orangered;
+}
